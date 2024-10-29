@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("https://1.bp.blogspot.com/-dgzmkHDSOMo/XbQVdbw6b6I/AAAAAAAAAxM/j-Y1cHwP2ngrBHPeKxR88IzddYYkwDb8gCLcBGAsYHQ/s1600/unnamed.gif");
+    background-size: cover;
+    height: 100hv;
+}
+.container{
+   text-align: left;
+   height: 100hv;
+   background-size: cover;
+   color: black;
+   padding: 50px;
+   width: 25%;
+   height: 250px;
+   background-color: rgb(251, 255, 0);
+   margin: 10px;
+   margin-top: 200px;
+   border-radius: 15px;
+   margin-left: 50px ;
+   display: flex;
+   align-items: center;
+}
+.form-field{
+    margin: auto;
+    padding-top: 5px;
+}
+.form-field input{
+            width: 80%;
+            margin: 1px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+.btn-login{
+    margin: 1px;
+            border-radius: 10px;
+            padding: 10px;
+            width:30%;
+}
+.Diwali,.h2{
+    color: rgb(251, 255, 0);
+    text-align: center;
+    text-decoration: solid;
+    font-family: cursive;
+    font-size: 2rem;
+}
+@media(max-width:430px){
+    .body{
+        background-image: url("https://1.bp.blogspot.com/-dgzmkHDSOMo/XbQVdbw6b6I/AAAAAAAAAxM/j-Y1cHwP2ngrBHPeKxR88IzddYYkwDb8gCLcBGAsYHQ/s1600/unnamed.gif");
+       background-size: cover;
+    }
+ .container{
+    background-color:  rgb(251, 255, 0);
+    width: 50%;
+ }
+
+}
+</style>
+<body>
+<!--login page card-->
+<div class="Diwali">
+   <marquee behavior="move" direction="right-side"><h2>Happy Diwali Ra Bunty</h2></marquee> 
+</div>
+
+<div class="container">
+    <div class="left-side">
+        <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+                    </div>
+    </div>
+    <div class="right-side">
+        <h2>Login</h2>
+                    <form action="diwali.html">
+            <div class="form-field"><input type="text" name="username" placeholder="Enter your username" required></div>
+            <div class="form-field"><input type="password" name="password" placeholder="Enter password" required></div><br>
+            <div class="remember-forgot">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+
+            <button type="submit" class="btn-login">Login</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
